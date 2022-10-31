@@ -15,7 +15,6 @@ function login(array) {
             } else {
                 console.log('Incorrect password. Try again.');
             }
-   
         } 
     });
 }

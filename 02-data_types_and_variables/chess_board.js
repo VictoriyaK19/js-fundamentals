@@ -1,8 +1,10 @@
 function chessBoard(arg) {
-    let size = Number(arg)
-    let currentColour = 'black'
-    let previousColour = ''
-    console.log('<div class="chessboard">')
+    
+    let size = Number(arg);
+    let currentColour = 'black';
+    let previousColour = '';
+
+    console.log('<div class="chessboard">');
  
     for (let rows = 1; rows <= size; rows++) {
         console.log('  <div>');
